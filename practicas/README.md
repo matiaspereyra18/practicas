@@ -14,13 +14,13 @@ A continuación, te presento los proyectos principales que desarrollé, enfocado
 | **💳 Tarjeta Giratoria Interactiva** | Componente interactivo. | CSS 3D Transforms 
 
 ---
-
+ https://matiaspereyra18.github.io/practicas/
 ## 🛠️ Tecnologías y Herramientas
 
 *   **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 *   **Diseño Responsivo:** Mobile First, Flexbox, CSS Grid
 *   **Control de Versiones:** Git & GitHub
-
+*   **clickUp / trello / gantproject**
 ---
 ## futuros proyectos/ proyectos en proceso
 
