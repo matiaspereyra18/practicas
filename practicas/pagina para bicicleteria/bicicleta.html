@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bicicletería — Albardón, San Juan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="bicicleteria.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#inicio" class="nav-logo">bicis<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#taller">Taller</a></li>
+      <li><a href="#info">Contacto</a></li>
+    </ul>
+    <a href="tel:02646275189" class="nav-phone">📞 0264 000-0000</a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Albardón, San Juan</p>
+      <h1 class="hero-title">
+        Bicicletería
+        <span>bicis</span>
+      </h1>
+      <p class="hero-sub">
+        Tu bici como nueva. Taller especializado con atención personalizada,
+        repuestos y accesorios en Albardón. Precios accesibles, trabajo de calidad.
+      </p>
+      <a href="tel:02646275189" class="btn">Llamanos ahora</a>
+      <a href="#taller" class="btn btn-ghost">Ver taller</a>
+    </div>
+
+    <div class="hero-visual">
+      <div class="bike-wrap">
+        <div class="bike-glow"></div>
+        <svg class="bike-svg" viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#00C6FF"/>
+              <stop offset="100%" stop-color="#0072FF"/>
+            </linearGradient>
+            <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#00C6FF"/>
+              <stop offset="100%" stop-color="#0072FF"/>
+            </linearGradient>
+            <linearGradient id="tireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#00C6FF" stop-opacity=".5"/>
+              <stop offset="100%" stop-color="#0072FF" stop-opacity=".5"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Rueda trasera -->
+          <circle cx="130" cy="240" r="85" fill="none" stroke="#152236" stroke-width="16"/>
+          <circle cx="130" cy="240" r="85" fill="none" stroke="url(#tireGrad)" stroke-width="2"/>
+          <circle cx="130" cy="240" r="85" fill="none" stroke="url(#rimGrad)" stroke-width="2.5" stroke-dasharray="5 3" opacity=".5"/>
+          <g stroke="rgba(0,198,255,0.3)" stroke-width="1.3">
+            <line x1="130" y1="240" x2="130" y2="155"/><line x1="130" y1="240" x2="200" y2="205"/>
+            <line x1="130" y1="240" x2="205" y2="275"/><line x1="130" y1="240" x2="130" y2="325"/>
+            <line x1="130" y1="240" x2="60" y2="275"/><line x1="130" y1="240" x2="55" y2="205"/>
+            <line x1="130" y1="240" x2="74" y2="172"/><line x1="130" y1="240" x2="186" y2="172"/>
+          </g>
+          <circle cx="130" cy="240" r="9" fill="#0A0F1A" stroke="url(#rimGrad)" stroke-width="3"/>
+
+          <!-- Rueda delantera -->
+          <circle cx="390" cy="240" r="85" fill="none" stroke="#152236" stroke-width="16"/>
+          <circle cx="390" cy="240" r="85" fill="none" stroke="url(#tireGrad)" stroke-width="2"/>
+          <circle cx="390" cy="240" r="85" fill="none" stroke="url(#rimGrad)" stroke-width="2.5" stroke-dasharray="5 3" opacity=".5"/>
+          <g stroke="rgba(0,198,255,0.3)" stroke-width="1.3">
+            <line x1="390" y1="240" x2="390" y2="155"/><line x1="390" y1="240" x2="460" y2="205"/>
+            <line x1="390" y1="240" x2="465" y2="275"/><line x1="390" y1="240" x2="390" y2="325"/>
+            <line x1="390" y1="240" x2="320" y2="275"/><line x1="390" y1="240" x2="315" y2="205"/>
+            <line x1="390" y1="240" x2="334" y2="172"/><line x1="390" y1="240" x2="446" y2="172"/>
+          </g>
+          <circle cx="390" cy="240" r="9" fill="#0A0F1A" stroke="url(#rimGrad)" stroke-width="3"/>
+
+          <!-- Piñón y plato -->
+          <circle cx="130" cy="240" r="13" fill="none" stroke="url(#rimGrad)" stroke-width="2.5" opacity=".7"/>
+          <circle cx="188" cy="247" rx="24" ry="24" fill="none" stroke="url(#rimGrad)" stroke-width="3"/>
+          <circle cx="188" cy="247" r="7" fill="#0A0F1A" stroke="url(#rimGrad)" stroke-width="2"/>
+          <!-- Cadena -->
+          <line x1="165" y1="229" x2="117" y2="232" stroke="#1E3050" stroke-width="4"/>
+          <line x1="165" y1="265" x2="117" y2="253" stroke="#1E3050" stroke-width="4"/>
+
+          <!-- Pedales -->
+          <line x1="188" y1="271" x2="162" y2="291" stroke="#2A4060" stroke-width="6" stroke-linecap="round"/>
+          <rect x="149" y="288" width="28" height="8" rx="2" fill="#2A4060"/>
+          <line x1="188" y1="223" x2="214" y2="203" stroke="#2A4060" stroke-width="6" stroke-linecap="round"/>
+          <rect x="212" y="198" width="28" height="8" rx="2" fill="#2A4060"/>
+
+          <!-- Marco - vaina trasera inferior -->
+          <line x1="130" y1="240" x2="232" y2="148" stroke="url(#frameGrad)" stroke-width="4.5" stroke-linecap="round"/>
+          <!-- Tubo del asiento -->
+          <line x1="232" y1="148" x2="188" y2="247" stroke="url(#frameGrad)" stroke-width="6" stroke-linecap="round"/>
+          <!-- Tubo superior -->
+          <line x1="232" y1="148" x2="344" y2="122" stroke="url(#frameGrad)" stroke-width="5" stroke-linecap="round"/>
+          <!-- Tubo diagonal (down tube) -->
+          <line x1="344" y1="122" x2="188" y2="247" stroke="url(#frameGrad)" stroke-width="7.5" stroke-linecap="round"/>
+          <!-- Horquilla -->
+          <line x1="344" y1="122" x2="390" y2="240" stroke="url(#frameGrad)" stroke-width="5" stroke-linecap="round"/>
+          <!-- Head tube -->
+          <line x1="344" y1="122" x2="355" y2="88" stroke="url(#frameGrad)" stroke-width="9" stroke-linecap="round"/>
+
+          <!-- Manubrio drop bar (cuerno de toro) -->
+          <path d="M355,88 Q368,78 378,70" fill="none" stroke="#4A6A90" stroke-width="5" stroke-linecap="round"/>
+          <path d="M378,70 Q388,62 386,74" fill="none" stroke="url(#rimGrad)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M378,70 Q372,58 362,62" fill="none" stroke="url(#rimGrad)" stroke-width="4" stroke-linecap="round"/>
+
+          <!-- Tija del asiento -->
+          <line x1="232" y1="148" x2="228" y2="108" stroke="#4A6A90" stroke-width="6" stroke-linecap="round"/>
+          <!-- Asiento -->
+          <path d="M208,104 Q228,95 248,104" fill="none" stroke="url(#rimGrad)" stroke-width="5" stroke-linecap="round"/>
+          <ellipse cx="228" cy="105" rx="26" ry="7" fill="#1A2D45" stroke="url(#rimGrad)" stroke-width="1.5"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <p class="sec-label">Lo que hacemos</p>
+    <h2 class="sec-title">Nuestros <span>servicios</span></h2>
+    <p class="sec-sub">Todo lo que tu bicicleta necesita en un solo lugar, con la atención que se merece.</p>
+    <div class="servicios-grid">
+      <div class="serv-card">
+        <span class="serv-icon">🔧</span>
+        <div class="serv-name">Taller de Reparación</div>
+        <p class="serv-desc">Dejá tu bici como nueva. Reparaciones completas a precios accesibles por mano de obra experta.</p>
+      </div>
+      <div class="serv-card">
+        <span class="serv-icon">⚙️</span>
+        <div class="serv-name">Mantenimiento</div>
+        <p class="serv-desc">Ajuste de frenos, cambios, lubricación y revisión general para que andes sin problemas.</p>
+      </div>
+      <div class="serv-card">
+        <span class="serv-icon">🚴</span>
+        <div class="serv-name">Venta de Bicicletas</div>
+        <p class="serv-desc">Amplio stock de bicicletas para todas las edades y necesidades. Rodados infantiles y adultos.</p>
+      </div>
+      <div class="serv-card">
+        <span class="serv-icon">🛞</span>
+        <div class="serv-name">Repuestos y Accesorios</div>
+        <p class="serv-desc">Cubiertas, cámaras, cadenas, frenos, luces y todo lo que necesitás para tu bici.</p>
+      </div>
+      <div class="serv-card">
+        <span class="serv-icon">🏠</span>
+        <div class="serv-name">Entrega a Domicilio</div>
+        <p class="serv-desc">Servicio de entrega disponible. Consultanos por zonas y condiciones.</p>
+      </div>
+      <div class="serv-card">
+        <span class="serv-icon">💬</span>
+        <div class="serv-name">Asesoramiento</div>
+        <p class="serv-desc">Te ayudamos a elegir la bici ideal o los repuestos correctos. Atención personalizada siempre.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TALLER -->
+  <section id="taller">
+    <div class="taller-visual">
+      <div class="taller-box">🔩</div>
+      <div class="taller-stat">
+        <strong>100%</strong>
+        <span>Satisfacción</span>
+      </div>
+    </div>
+    <div class="taller-text">
+      <p class="sec-label">Nuestro taller</p>
+      <h2 class="sec-title">Tu bici merece lo <span>mejor</span></h2>
+      <p>En Bicicletería Pugliese contamos con un taller equipado para atender todo tipo de reparaciones y mantenimiento. Trabajamos con dedicación y honestidad para que vuelvas a rodar lo antes posible.</p>
+      <p>A un precio accesible podés dejar tu bici como nueva. Ese es nuestro compromiso desde que abrimos nuestras puertas en Albardón.</p>
+      <ul class="taller-list">
+        <li>Reparación de frenos y cambios</li>
+        <li>Cambio de cubiertas y cámaras</li>
+        <li>Ajuste y tensado de rayos</li>
+        <li>Lubricación y limpieza profunda</li>
+        <li>Reparación de cuadros y soldadura</li>
+        <li>Revisión completa de la bici</li>
+      </ul>
+      <a href="tel:02646275189" class="btn">Traé tu bici</a>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <div class="cta-banner">
+    <div>
+      <h2>¿Tu bici necesita atención?</h2>
+      <p>Visitanos en calle (), Albardón · Abrimos de lunes a sábado</p>
+    </div>
+    <a href="tel:02646275189" class="btn-cta">Llamar: 0264 000-0000</a>
+  </div>
+
+  <!-- INFO -->
+  <section id="info">
+    <p class="sec-label">Encontranos</p>
+    <h2 class="sec-title">Contacto e <span>información</span></h2>
+    <div class="info-grid">
+      <div class="info-bloque">
+        <h3>Datos de contacto</h3>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-detail">
+            <span>Dirección</span>
+            <span>calle(), Albardón, San Juan</span>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div class="info-detail">
+            <span>Teléfono</span>
+            <a href="tel:02646275189"><span>0264 000-0000</span></a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🚚</div>
+          <div class="info-detail">
+            <span>Envíos</span>
+            <span>Entrega a domicilio disponible</span>
+          </div>
+        </div>
+        <div class="social-row">
+          <a href="https://www.facebook.com/" target="_blank" class="social-btn">Facebook</a>
+          <a href="tel:0000000000" class="social-btn">Llamar</a>
+        </div>
+      </div>
+      <div class="info-bloque">
+        <h3>Horarios de atención</h3>
+        <table class="horario-tabla">
+          <tr><td>Lunes</td><td>9:00 — 13:00 / 16:00 — 20:00</td></tr>
+          <tr><td>Martes</td><td>9:00 — 13:00 / 16:00 — 20:00</td></tr>
+          <tr><td>Miércoles</td><td>9:00 — 13:00 / 16:00 — 20:00</td></tr>
+          <tr><td>Jueves</td><td>9:00 — 13:00 / 16:00 — 20:00</td></tr>
+          <tr><td>Viernes</td><td>9:00 — 13:00 / 16:00 — 20:00</td></tr>
+          <tr><td>Sábado</td><td>9:00 — 13:00</td></tr>
+          <tr><td>Domingo</td><td class="cerrado">Cerrado</td></tr>
+        </table>
+        <br>
+        <a href="https://maps.google.com/" target="_blank" class="btn" style="font-size:.75rem">Ver en Google Maps</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">bicis<span>.</span></div>
+    <div class="footer-info">
+      <p>© 2025 Bicicletería bicis · calle(), Albardón, San Juan</p>
+    </div>
+  </footer>
+
+</body>
+</html>
